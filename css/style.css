@@ -1,0 +1,89 @@
+body{
+    padding-bottom: 20px;
+    background-color: #333;
+    color: #666;
+}
+.container-main{
+    background: #f4f4f4;
+    overflow: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.logo{
+    padding: 20px 0;
+}
+.navbar{
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 0;
+}
+#myCoursel{
+    margin-bottom: 20px;
+}
+#myCoursel .carousel-caption{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    text-shadow: none;
+}
+#myCoursel .carousel-caption h4{
+     color: #fff;
+}
+#myCoursel .carousel-caption p{
+    padding: 0;
+    margin: 0;
+}
+#myCoursel .list-group{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#myCoursel .list-group-item{
+    border-radius: 0;
+    cursor: pointer;
+}
+#myCoursel .list-group-item .active{
+    background: #eee;
+    border: 0;
+    color: #666;
+}
+#myCoursel .list-group h4{
+    font-size: 17px;
+    padding: 0 !important;
+    margin: 0!important;
+    padding-top: 5px;
+}
+#myCoursel .img-slide{
+    width: 80px;
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+}
+.post-info{
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border: #ccc 1px solid;
+}
+@media(min-width:992px){
+    #myCoursel{
+        padding-right: 33.333%;
+    } 
+    #myCoursel .carousel-controls{
+        display: none;
+    }
+}
+@media(max-width:991px){
+    .carousel-caption p, #myCoursel .list-group{
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .slider-list p{
+        display: none;
+    }
+}
